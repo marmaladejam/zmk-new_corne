@@ -215,7 +215,7 @@
             bindings = <
 &bootloader &none       &none       &none       &none       &none                            &none             &none       &none       &none       &none       &none        &trans
 &sys_reset  &none       &none       &none       &none       &none                     &none  &none  &none      &none       &none       &none       &none       &none        &none
-&none       &none       &none       &none       &none       &none         &none              &none             &none       &none       &none       &none       &none        &none
+&none       &none       &none       &none       &none       &none         &none              &none             &none       &none       &none       &none       &none        &bootloader
                                     &none       &none       &none                                              &none       &none       &trans
             >;
 
