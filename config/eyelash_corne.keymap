@@ -42,7 +42,7 @@
     tapping-term-ms = <170>;
     quick-tap-ms = <150>;
     flavor = "tap-preferred";
-}
+};
 
 / {
     behaviors {
@@ -61,7 +61,7 @@
             flavor = "balanced";    // Like PERMISSIVE_HOLD
             tapping-term-ms = <130>; // Equivalent to TAPPING_TERM - 40 (assuming TAPPING_TERM is 170ms)
             bindings = <&kp>, <&kp>;
-            display-name = "MT_QUICK"
+            display-name = "MT_QUICK";
         };
 
         // This behavior is for the LT() keys.
@@ -72,7 +72,7 @@
             flavor = "balanced";    // Like PERMISSIVE HOLD
             tapping-term-ms = <170>;
             bindings = <&mo>, <&kp>;
-            display-name = "LT_PERM_HOLD"
+            display-name = "LT_PERM_HOLD";
         };
     };
 
